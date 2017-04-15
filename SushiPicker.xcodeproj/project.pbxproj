@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AB539421E9C47520095C2BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB539411E9C47520095C2BF /* AppDelegate.swift */; };
+		1AB539471E9C47520095C2BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB539451E9C47520095C2BF /* Main.storyboard */; };
+		1AB539491E9C47520095C2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB539481E9C47520095C2BF /* Assets.xcassets */; };
+		1AB5394C1E9C47520095C2BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB5394A1E9C47520095C2BF /* LaunchScreen.storyboard */; };
+		1AB539571E9C47520095C2BF /* SushiPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB539561E9C47520095C2BF /* SushiPickerTests.swift */; };
+		1AB539621E9C47520095C2BF /* SushiPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB539611E9C47520095C2BF /* SushiPickerUITests.swift */; };
+		1AB539701E9C48EA0095C2BF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5396F1E9C48EA0095C2BF /* MenuViewController.swift */; };
+		1AB539721E9C4C800095C2BF /* IngredientsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB539711E9C4C800095C2BF /* IngredientsTableViewController.swift */; };
+		1AB539741E9C8B720095C2BF /* IngredientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB539731E9C8B720095C2BF /* IngredientCell.swift */; };
+		1AB5397B1E9CA25C0095C2BF /* Sushi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5397A1E9CA25C0095C2BF /* Sushi.swift */; };
+		1AF407981E9EBA4D00C1BEBD /* SuggestedRollsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF407971E9EBA4D00C1BEBD /* SuggestedRollsViewController.swift */; };
+		1AF4079C1E9EBDC900C1BEBD /* SushiSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4079B1E9EBDC900C1BEBD /* SushiSearch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AB539531E9C47520095C2BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB539361E9C47520095C2BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB5393D1E9C47520095C2BF;
+			remoteInfo = SushiPicker;
+		};
+		1AB5395E1E9C47520095C2BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB539361E9C47520095C2BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB5393D1E9C47520095C2BF;
+			remoteInfo = SushiPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AB5393E1E9C47520095C2BF /* SushiPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB539411E9C47520095C2BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AB539461E9C47520095C2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AB539481E9C47520095C2BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AB5394B1E9C47520095C2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AB5394D1E9C47520095C2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB539521E9C47520095C2BF /* SushiPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SushiPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB539561E9C47520095C2BF /* SushiPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiPickerTests.swift; sourceTree = "<group>"; };
+		1AB539581E9C47520095C2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB5395D1E9C47520095C2BF /* SushiPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SushiPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB539611E9C47520095C2BF /* SushiPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiPickerUITests.swift; sourceTree = "<group>"; };
+		1AB539631E9C47520095C2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB5396F1E9C48EA0095C2BF /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		1AB539711E9C4C800095C2BF /* IngredientsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsTableViewController.swift; sourceTree = "<group>"; };
+		1AB539731E9C8B720095C2BF /* IngredientCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientCell.swift; sourceTree = "<group>"; };
+		1AB5397A1E9CA25C0095C2BF /* Sushi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sushi.swift; sourceTree = "<group>"; };
+		1AF407971E9EBA4D00C1BEBD /* SuggestedRollsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestedRollsViewController.swift; sourceTree = "<group>"; };
+		1AF4079B1E9EBDC900C1BEBD /* SushiSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SushiSearch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AB5393B1E9C47520095C2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB5394F1E9C47520095C2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB5395A1E9C47520095C2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AB539351E9C47520095C2BF = {
+			isa = PBXGroup;
+			children = (
+				1AB539401E9C47520095C2BF /* SushiPicker */,
+				1AB539551E9C47520095C2BF /* SushiPickerTests */,
+				1AB539601E9C47520095C2BF /* SushiPickerUITests */,
+				1AB5393F1E9C47520095C2BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AB5393F1E9C47520095C2BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AB5393E1E9C47520095C2BF /* SushiPicker.app */,
+				1AB539521E9C47520095C2BF /* SushiPickerTests.xctest */,
+				1AB5395D1E9C47520095C2BF /* SushiPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AB539401E9C47520095C2BF /* SushiPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1AB5396F1E9C48EA0095C2BF /* MenuViewController.swift */,
+				1AB539711E9C4C800095C2BF /* IngredientsTableViewController.swift */,
+				1AF407971E9EBA4D00C1BEBD /* SuggestedRollsViewController.swift */,
+				1AB539731E9C8B720095C2BF /* IngredientCell.swift */,
+				1AB539451E9C47520095C2BF /* Main.storyboard */,
+				1AB5397A1E9CA25C0095C2BF /* Sushi.swift */,
+				1AF4079B1E9EBDC900C1BEBD /* SushiSearch.swift */,
+				1AB539771E9CA1740095C2BF /* Support Files */,
+			);
+			path = SushiPicker;
+			sourceTree = "<group>";
+		};
+		1AB539551E9C47520095C2BF /* SushiPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AB539561E9C47520095C2BF /* SushiPickerTests.swift */,
+				1AB539581E9C47520095C2BF /* Info.plist */,
+			);
+			path = SushiPickerTests;
+			sourceTree = "<group>";
+		};
+		1AB539601E9C47520095C2BF /* SushiPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AB539611E9C47520095C2BF /* SushiPickerUITests.swift */,
+				1AB539631E9C47520095C2BF /* Info.plist */,
+			);
+			path = SushiPickerUITests;
+			sourceTree = "<group>";
+		};
+		1AB539771E9CA1740095C2BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AB539411E9C47520095C2BF /* AppDelegate.swift */,
+				1AB539481E9C47520095C2BF /* Assets.xcassets */,
+				1AB5394A1E9C47520095C2BF /* LaunchScreen.storyboard */,
+				1AB5394D1E9C47520095C2BF /* Info.plist */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AB5393D1E9C47520095C2BF /* SushiPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB539661E9C47520095C2BF /* Build configuration list for PBXNativeTarget "SushiPicker" */;
+			buildPhases = (
+				1AB5393A1E9C47520095C2BF /* Sources */,
+				1AB5393B1E9C47520095C2BF /* Frameworks */,
+				1AB5393C1E9C47520095C2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SushiPicker;
+			productName = SushiPicker;
+			productReference = 1AB5393E1E9C47520095C2BF /* SushiPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AB539511E9C47520095C2BF /* SushiPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB539691E9C47520095C2BF /* Build configuration list for PBXNativeTarget "SushiPickerTests" */;
+			buildPhases = (
+				1AB5394E1E9C47520095C2BF /* Sources */,
+				1AB5394F1E9C47520095C2BF /* Frameworks */,
+				1AB539501E9C47520095C2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB539541E9C47520095C2BF /* PBXTargetDependency */,
+			);
+			name = SushiPickerTests;
+			productName = SushiPickerTests;
+			productReference = 1AB539521E9C47520095C2BF /* SushiPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AB5395C1E9C47520095C2BF /* SushiPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB5396C1E9C47520095C2BF /* Build configuration list for PBXNativeTarget "SushiPickerUITests" */;
+			buildPhases = (
+				1AB539591E9C47520095C2BF /* Sources */,
+				1AB5395A1E9C47520095C2BF /* Frameworks */,
+				1AB5395B1E9C47520095C2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB5395F1E9C47520095C2BF /* PBXTargetDependency */,
+			);
+			name = SushiPickerUITests;
+			productName = SushiPickerUITests;
+			productReference = 1AB5395D1E9C47520095C2BF /* SushiPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AB539361E9C47520095C2BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "James Paulk";
+				TargetAttributes = {
+					1AB5393D1E9C47520095C2BF = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = BNFTFFSMZ7;
+						ProvisioningStyle = Automatic;
+					};
+					1AB539511E9C47520095C2BF = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = BNFTFFSMZ7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AB5393D1E9C47520095C2BF;
+					};
+					1AB5395C1E9C47520095C2BF = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = BNFTFFSMZ7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AB5393D1E9C47520095C2BF;
+					};
+				};
+			};
+			buildConfigurationList = 1AB539391E9C47520095C2BF /* Build configuration list for PBXProject "SushiPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AB539351E9C47520095C2BF;
+			productRefGroup = 1AB5393F1E9C47520095C2BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AB5393D1E9C47520095C2BF /* SushiPicker */,
+				1AB539511E9C47520095C2BF /* SushiPickerTests */,
+				1AB5395C1E9C47520095C2BF /* SushiPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AB5393C1E9C47520095C2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB5394C1E9C47520095C2BF /* LaunchScreen.storyboard in Resources */,
+				1AB539491E9C47520095C2BF /* Assets.xcassets in Resources */,
+				1AB539471E9C47520095C2BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB539501E9C47520095C2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB5395B1E9C47520095C2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB5393A1E9C47520095C2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF4079C1E9EBDC900C1BEBD /* SushiSearch.swift in Sources */,
+				1AB5397B1E9CA25C0095C2BF /* Sushi.swift in Sources */,
+				1AB539741E9C8B720095C2BF /* IngredientCell.swift in Sources */,
+				1AB539421E9C47520095C2BF /* AppDelegate.swift in Sources */,
+				1AF407981E9EBA4D00C1BEBD /* SuggestedRollsViewController.swift in Sources */,
+				1AB539721E9C4C800095C2BF /* IngredientsTableViewController.swift in Sources */,
+				1AB539701E9C48EA0095C2BF /* MenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB5394E1E9C47520095C2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB539571E9C47520095C2BF /* SushiPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB539591E9C47520095C2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB539621E9C47520095C2BF /* SushiPickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AB539541E9C47520095C2BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB5393D1E9C47520095C2BF /* SushiPicker */;
+			targetProxy = 1AB539531E9C47520095C2BF /* PBXContainerItemProxy */;
+		};
+		1AB5395F1E9C47520095C2BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB5393D1E9C47520095C2BF /* SushiPicker */;
+			targetProxy = 1AB5395E1E9C47520095C2BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AB539451E9C47520095C2BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB539461E9C47520095C2BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AB5394A1E9C47520095C2BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB5394B1E9C47520095C2BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AB539641E9C47520095C2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AB539651E9C47520095C2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AB539671E9C47520095C2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BNFTFFSMZ7;
+				INFOPLIST_FILE = SushiPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JamesPaulk.SushiPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1AB539681E9C47520095C2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BNFTFFSMZ7;
+				INFOPLIST_FILE = SushiPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JamesPaulk.SushiPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1AB5396A1E9C47520095C2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BNFTFFSMZ7;
+				INFOPLIST_FILE = SushiPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JamesPaulk.SushiPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SushiPicker.app/SushiPicker";
+			};
+			name = Debug;
+		};
+		1AB5396B1E9C47520095C2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BNFTFFSMZ7;
+				INFOPLIST_FILE = SushiPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JamesPaulk.SushiPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SushiPicker.app/SushiPicker";
+			};
+			name = Release;
+		};
+		1AB5396D1E9C47520095C2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BNFTFFSMZ7;
+				INFOPLIST_FILE = SushiPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JamesPaulk.SushiPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SushiPicker;
+			};
+			name = Debug;
+		};
+		1AB5396E1E9C47520095C2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BNFTFFSMZ7;
+				INFOPLIST_FILE = SushiPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JamesPaulk.SushiPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SushiPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AB539391E9C47520095C2BF /* Build configuration list for PBXProject "SushiPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB539641E9C47520095C2BF /* Debug */,
+				1AB539651E9C47520095C2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB539661E9C47520095C2BF /* Build configuration list for PBXNativeTarget "SushiPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB539671E9C47520095C2BF /* Debug */,
+				1AB539681E9C47520095C2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB539691E9C47520095C2BF /* Build configuration list for PBXNativeTarget "SushiPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB5396A1E9C47520095C2BF /* Debug */,
+				1AB5396B1E9C47520095C2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB5396C1E9C47520095C2BF /* Build configuration list for PBXNativeTarget "SushiPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB5396D1E9C47520095C2BF /* Debug */,
+				1AB5396E1E9C47520095C2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AB539361E9C47520095C2BF /* Project object */;
+}
