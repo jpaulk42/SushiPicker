@@ -5,7 +5,7 @@
 //  Created by James Paulk on 4/11/17.
 //  Copyright © 2017 James Paulk. All rights reserved.
 //
-
+//Struct to keep track of ingredients, sushi rolls, and the arrays for user interaction
 public struct Sushi
 {
     static let ingredients: [String] = ["smoked salmon", "conch", "scallop", "krab salad", "krab stick", "shrimp", "yellowtail", "tuna", "eel", "soft shell crab", "steak", "fresh salmon", "octopus", "bacon", "surf clam","fish", "spicy sauce", "cream cheese", "chili paste", "eel sauce", "wasabi", "avocado", "cucumber", "green onion","garlic", "veggies", "flying fish roe","smelt roe", "tempura"]
